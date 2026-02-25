@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700&family=Raleway&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="options">
+                <a href="#"><i class="fa-solid fa-house"></i> Home</a><br>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+            </div>
+            <div class="library">
+                <div class="icons">
+                    <div><img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Create your first playlist</h3>
+                        <p>it's easy,we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                    <div class="card">
+                        <h3>Let's find some podcasts to follow</h3>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button style="position: relative; bottom: 0.5rem;">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="navbar">
+                <div class="bkfk">
+                    <div class="imgs">
+                        <img src="./assets/backward_icon.png"><img class="hide" src="./assets/forward_icon.png">
+                    </div>
+                    <div class="butuns">
+                        <button class="hide">Explore Premium</button>
+                        <button style="background-color: black; color: white;"><i
+                                class="fa-solid fa-download"></i>Install app</button>
+                        <i class="fa-solid fa-circle-user" style="color: white; font-size: larger;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist1">
+                <h2>Recently Played</h2>
+                <div class="cardcontainer">
+                    <div class="cardd">
+                        <img src="./assets/card1img.jpeg">
+                        <p style="font-weight: 600;">Top 50 - Global</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Your daily updates of the most played tracks righ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist2">
+                <h2>Trending now near you</h2>
+                <div class="cardcontainer">
+                    <div class="cardd">
+                        <img src="./assets/card7img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card8img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card9img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card10img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card2img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist3">
+                <h2>Featured Charts</h2>
+                <div class="cardcontainer">
+                    <div class="cardd">
+                        <img src="./assets/card5img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card6img.jpeg">
+                        <p style="font-weight: 600;">Indie India</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Best of Indie India</p>
+                    </div>
+                    <div class="cardd">
+                        <img src="./assets/card1img.jpeg">
+                        <p style="font-weight: 600;">Top 50 - Global</p>
+                        <p style="font-size: 0.85rem; opacity: .7;">Your daily updates of the most played tracks righ...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="line"> </div>
+            </div>
+        </div>
+
+        <div class="musicplayer">
+            <div class="song">
+                <div class="image"><img src="assets/song.jpeg"></div>
+                <div class="titlesong">
+                    <h4 id="dh">Dhurandhar</h4>
+                    <p id="ha">Hanumankind</p>
+                </div>
+                <div class="icn"><i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-list"></i></div>
+            </div>
+            <div class="playback">
+                <div class="cntrls">
+                    <img src="./assets/player_icon1.png">
+                    <img src="./assets/player_icon2.png">
+                    <img id="play" src="./assets/player_icon3.png">
+                    <img src="./assets/player_icon4.png">
+                    <img src="./assets/player_icon5.png">
+                </div>
+                <div class="range">
+                    <span>0:00</span><input type="range" min="0" max="100" step="1" class="bar"><span>2:35</span>
+                </div>
+            </div>
+            <div class="sidecontent">
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-computer"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="0" max="100" step="1" class="volume"> 
+            </div>
+        </div>
+</body>
+
+</html>
